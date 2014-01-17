@@ -25,7 +25,7 @@
         </dt>
 
         <dd metal:fill-slot="temporal-coverage-body"
-            tal:content="context/@@formatTempCoverage" id="tempCoverage">Body</dd>
+            tal:content="value" id="tempCoverage">Body</dd>
 
     </tal:parent>
 </tal:block>
